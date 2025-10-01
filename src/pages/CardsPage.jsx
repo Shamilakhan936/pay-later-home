@@ -31,7 +31,7 @@ const CardsPage = () => {
 
         <div className="flex flex-col gap-3 justify-center items-center mb-11  mx-auto">
           <img src={CardFront} alt="Card Front" className="w-full max-w-[500px] max-h-[300px] h-full" />
-          <img src={CardBack} alt="Card Back" className="w-full max-w-[500px] max-h-[300px] h-full" />
+          <img src={CardFront} alt="Card Back" className="w-full max-w-[500px] max-h-[300px] h-full" />
         </div> 
 
         <div className="mb-8">
